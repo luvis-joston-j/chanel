@@ -1,0 +1,588 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+/* background-color: #e7e7e7; */
+    max-width: 1440px;
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #393939;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+/* header */
+
+/* header{
+    background: linear-gradient(rgba(199, 204, 214, 0),rgba(255, 241, 160, 0)), url("./images/header.jpg") center/cover no-repeat;
+
+  } */
+/* nav{
+    background-color: black;
+    */
+/* } */
+  .chanel{
+      background-color: black;
+      text-align: center;
+      padding: 30px;
+      font-size: 30px; 
+      color: white;
+
+  }
+
+  .headerTitle{
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      
+  }
+ 
+  .headerImage {
+    background: url("./images/jess-bailey-NaTza96eJm0-unsplash.jpg") center/cover no-repeat;
+     height: 100vh;
+     width: 100vw;
+     text-align: center;
+     position: relative;
+
+  } 
+
+  /* .headerImage .textWrapper{
+  text-align: center;
+  position: absolute;
+  top: 20%; 
+  left: 30%;
+  } */
+  .textWrapper{
+      position: relative;
+  }
+  .textWrapper h2{
+      font-size: 70px;
+      font-family: 'Raleway', sans-serif;
+      color:black;
+      text-align: left;
+      margin-top:0 ;
+      margin-left: 20px;
+      font-weight: 500;
+      width: 50%;
+      padding-top: 100px;
+  }
+  .textWrapper button{
+    font-size: 25px;
+    padding: 20px 25px 20px 25px;
+    border: none;
+    background-color: #393939;
+    color: white;
+    /* border-radius: 5px; */
+    margin-top: 0px;
+    position: absolute;
+   left: 15%;
+   scroll-behavior: smooth;
+ }
+ .order{
+     text-decoration: none;
+     color: white;
+ }
+  .curvedUpper {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: -1%;
+    }
+/* "main" */
+main{
+   margin: 0;
+background-color: #ededed;
+
+
+}
+.container{
+    /* position: relative; */
+    background-color: #ededed;
+    ;
+}
+.container h1{
+    margin-top: 0;
+}
+.curvedLower{
+    display: block;
+}
+.ourfragrance{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.fragrance{
+ display: flex;
+ flex-direction: column;
+ margin: 15px;
+ position: relative;
+ text-align: right;
+}
+.fragranceP{
+   
+    line-height: 25px;
+     margin-left: 155px;
+     padding-left: 200px;
+ 
+     width: 70%;
+     text-align:left;
+}
+.imgF {
+    position: absolute;
+    top: 0;
+  left: -10%;
+    border-radius: 10px;
+}
+.flowerWrap{
+    position: absolute;
+}
+.composition{
+    /* position: relative; */
+    margin: 30px 20px 0 20px;
+    text-align: center;
+    /* background: url(./images/andreas-haslinger-9pCjMm9AKVU-unsplash.jpg) center/cover no-repeat; */
+}
+.compoRelative{
+    position: relative;
+
+}
+.composition h1 {
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+} 
+.compositionImg{
+ opacity: .2;
+ border-radius: 60%;
+}
+
+#jasmine{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 35px; 
+}
+#jasmine h3, #orange h3, #grasse h3, #ylang h3 {
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+#orange{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 35px;
+}
+
+#grasse{
+    position: absolute;
+   top: 90%;
+   left: 47%;
+    font-size: 35px;
+}
+
+#ylang{
+    position: absolute;
+    top: 50%;
+    right: 19%;
+    font-size: 35px;
+}
+
+
+.access{
+    margin-top:50px ;
+ padding: 80px 0px 80px 0px;
+    text-align: center;
+   margin-bottom: 30px;
+  
+}
+.access h1{
+    font-size: 50px;
+}
+.access input{
+    font-size: 20px;
+    width: 20%;
+   border-radius: 5px;
+   border: none;
+   padding: 5px;
+  
+}
+.access button {
+  font-size: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 10%;
+   border: none;
+   background-color: #393939;
+   color: white;
+}
+.contacts{
+    display: flex;
+    flex: row;
+    margin: 40px;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.contactsInfo{ 
+padding-bottom: 0;
+flex-basis: 100%;
+text-align: center;
+}
+.contactsInfo h1 {
+    font-size: 50px;
+}
+
+.contactsInfo p{
+    margin: 0;
+    padding: 5px;
+}
+
+.hand img{  
+    position: absolute;
+  right: -5%;
+    top: -200%;
+    opacity: .8;
+    /* transform: rotate(40deg); */
+}
+.pInline{
+    display: inline;
+    padding-right: 5px;
+   text-decoration: underline;
+}
+.contactP a {
+    text-decoration: none;
+    color: black;
+}
+.pInline:hover{
+text-decoration: none;
+}
+
+/* footer */
+
+
+.footer{
+    background-color: black;
+      text-align: center;
+      padding: 30px;
+      font-size: 30px; 
+      color: white;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:1025px) {
+    .textWrapper{
+        position: relative;
+        text-align: center;
+    }
+    .textWrapper h2{
+        font-size: 60px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    .textWrapper button{
+        font-size: 10px;
+        padding: 10px 12px 10px 12px;
+        margin-top: 10px;
+       width: 30%;
+       top: 100%;
+      margin-left: 0;
+     margin-right: 0;
+      left: 2%;
+     }
+     .imgF {
+        position: absolute;
+        top: -5%;
+      left: -10%;
+        border-radius: 10px;
+        width: 250px;
+    }
+    .ourfragrance{
+        margin-bottom: 20px;
+    }
+    .fragranceP{
+        /* text-align: justify; */
+       margin-left: 100px;
+       line-height: 27px;
+       font-size: 20px;
+  }
+  .composition h1 {
+      padding-bottom: 10px;
+  }
+  #jasmine{ 
+      top: 12%;
+    font-size: 35px; 
+}
+#orange{
+    left: 15%;
+    font-size: 35px;
+}
+#grasse{
+   top: 80%;
+   font-size: 35px;
+}
+#ylang{
+    right: 14%;
+    font-size: 35px;
+}
+.access{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.access input{
+    width: 25%;
+}
+
+.access button {
+     width: 20%;
+     margin-left: 10px;
+     
+  }
+  .hand img{  
+    position: absolute;
+    right: -8%;
+   top: -95%;
+    width: 180px;
+    z-index: 0;
+    overflow: hidden;
+    /* transform: rotate(40deg); */
+}
+
+.footer h1{
+  margin: 0;
+}
+
+}
+
+@media screen and (max-width:769px){
+    .chanel{
+        padding: 20px;
+        font-size: 25px; 
+    }
+.textWrapper{
+    position: relative;
+    text-align: center;
+}
+.textWrapper h2{
+    font-size: 30px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.textWrapper button{
+    font-size: 10px;
+    padding: 10px 12px 10px 12px;
+    margin-top: 10px;
+   width: 30%;
+   top: 100%;
+  margin-left: 0;
+ margin-right: 0;
+  left: 5%;
+ }
+ .ourfragrance{
+    font-size: 27px;
+    width: 100%;
+    margin-left: 0;
+    padding: 30px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+.fragrance{
+ align-items: center;
+
+}
+.fragranceP{
+      float:right ;
+      text-align: justify;
+      padding: 0;
+     margin-left: 20px;
+     margin-right: 10px;
+     font-size: 12px;
+     padding-left:30px ;
+     line-height: 20px;
+     
+}
+.imgF {
+ float: left;
+  padding-right: 20px;
+    width: 100px;
+}
+.composition h1 {
+    font-size: 27px;
+    padding-bottom: 20px;
+    font-weight: 600;
+} 
+.compositionImg{
+    opacity: .2;
+    border-radius: 60%;
+    width: 300px;
+   }
+ #jasmine{
+    font-size: 20px; 
+}
+#orange{
+   
+    left: 5%;
+    font-size: 20px;
+}
+#grasse{
+   top: 80%;
+    font-size: 20px;
+}
+#ylang{
+    right: 5%;
+    font-size: 20px;
+}
+.access{
+    margin-top:40px ;
+    padding: 40px 0px 40px 0px;
+   margin-bottom: 30px;
+}
+.access h1{
+    font-size: 27px;
+}
+.access input{
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+   margin: 15px;
+}
+.access button {
+     width: 50%;
+  }
+  .contacts{
+      position: relative;
+      margin-top: 20px;
+  }
+  .contactsInfo h1 {
+    font-size: 27px;
+}
+/* .contactP{
+    z-index: 1;
+} */
+
+.hand img{  
+    position: absolute;
+    right: -15%;
+   top: -19%;
+    width: 100px;
+    z-index: 0;
+
+}
+.footer{
+      padding: 20px;
+      font-size: 25px;  
+}
+.footer h1{
+    margin: 0;
+}
+}
+@media screen and (max-width:480px){
+    .chanel{
+        font-size: 20px;
+        padding: 10px;
+     
+    }
+    .headerImage{
+        height: 50vh;
+        width: 100vw;
+    }
+    .textWrapper h2{
+        font-size: 25px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    .ourfragrance{
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0;
+        padding: 15px 15px 15px 15px;
+        margin-bottom: 10px;
+    }
+    .fragrance{
+        align-items: center;
+       
+       }
+       .fragranceP{
+        float:right ;
+        text-align: justify;
+        padding: 0;
+       margin-left: 0px;
+       margin-right: 10px;
+       font-size: 13px;
+       padding-left:0px ;
+       line-height: 20px;
+       
+  }
+  .imgF {
+   float: left;
+    padding-right: 0px;
+    width: 80px;
+    
+  }
+  .composition h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.compositionImg{
+    opacity: .2;
+    border-radius: 60%;
+    width: 200px;
+   }
+#jasmine{
+    font-size: 15px; 
+}
+#orange{
+    left: 17%;
+    font-size: 15px;
+}
+#grasse{
+   top: 80%;
+    font-size: 15px;
+}
+#ylang{
+    right: 17%;
+    font-size: 15px;
+}
+.access{
+    margin-top:30px ;
+    padding: 30px 0px 30px 0px;
+   margin-bottom: 30px;
+}
+.access h1{
+    font-size: 20px;
+}
+.access input{
+    font-size: 10px;
+    width: 60%;
+    padding: 8px;
+   margin: 10px 5px 10px 5px;
+}
+.access button {
+    margin-top: 10px;
+    width: 50%;
+ }
+ .contactsInfo h1 {
+    font-size: 20px;
+}
+.hand img{  
+    position: absolute;
+    right: -10%;
+    top: -22%;
+    width: 90px;
+    z-index: 0;
+    /* transform: rotate(40deg); */
+}
+.footer{
+    padding: 10px;
+    font-size: 20px;  
+}
+.footer h1{
+  margin: 0;
+}
+
+}
